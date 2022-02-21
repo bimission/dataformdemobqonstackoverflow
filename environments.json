@@ -10,13 +10,13 @@
       "gitRef": "master"
     },
     {
-      "name": "lolejniczak-sbox",
+      "name": "dev0",
       "configOverride": {
         "defaultSchema": "dataform",
         "schemaSuffix": "d00",
         "defaultDatabase": "datafusionsbox"
       },
-      "gitRef": "master"
+      "gitRef": "dataform_d00"
     }
   ]
 }
