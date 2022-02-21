@@ -16,7 +16,7 @@
         "schemaSuffix": "d00",
         "defaultDatabase": "datafusionsbox"
       },
-      "gitRef": "d00"
+      "gitRef": "master"
     }
   ]
 }
