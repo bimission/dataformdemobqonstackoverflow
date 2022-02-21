@@ -1,9 +1,22 @@
 {
-    "environments": [
-        {
-            "name": "production",
-            "configOverride": {},
-            "gitRef": "master"
-        }
-    ]
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {
+        "defaultSchema": "dataform",
+        "schemaSuffix": "p99",
+        "defaultDatabase": "datafusionsbox"
+      },
+      "gitRef": "master"
+    },
+    {
+      "name": "lolejniczak-sbox",
+      "configOverride": {
+        "defaultSchema": "dataform",
+        "schemaSuffix": "d00",
+        "defaultDatabase": "datafusionsbox"
+      },
+      "gitRef": "d00"
+    }
+  ]
 }
